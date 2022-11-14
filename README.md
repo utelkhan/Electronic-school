@@ -1,8 +1,8 @@
 
-# ESchool
+# Electronic-school
 
 
-### Documentation
+##1. Скачивание
 
 1. Чтобы скачать проект, запустите команду:
 
