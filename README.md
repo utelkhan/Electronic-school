@@ -1,7 +1,7 @@
 # Electronic-school
 
 1. Чтобы скачать проект, запустите команду:
-``git clone https://github.com/UtelkhanAzamat/Electronic-school.git``
+``https://github.com/UtelkhanAzamat/Electronic-school.git``
 
 
 2. После скачивания запускаем backend(server) и frontend(client) по отдельности
