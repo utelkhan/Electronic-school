@@ -31,6 +31,7 @@
 2. Запустите команду `npm start` на клиентской сторонe приложения.
 3. Затем заходим в браузер по адресу: http://localhost:4200/
 4. После вы можете зайти на сайт, с одним из этих данных:
-   - username:user, password:user;
-   - username:azamat, password:azamat;
-   - username:greetgo, password:greetgo.
+   - username: user, password: user
+   - username: azamat, password: azamat
+   - username: greetgo, password: greetgo
+5. Дальше вы проходите на главную страницу, где есть таблица студентов. Вы можете создать студента и удалить.
