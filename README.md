@@ -30,7 +30,7 @@
 1. Запустите джава приложение.
 2. Запустите команду `npm start` на клиентской сторонe приложения.
 3. Затем заходим в браузер по адресу: http://localhost:4200/
-4. После вы можете зайти на сайт, с одним из этих данных:\
-   1.username->user, password->user\
-   2.username->azamat, password->azamat\
-   3.username->greetgo, password->greetgo\
+4. После вы можете зайти на сайт, с одним из этих данных:
+   - username:user, password:user;
+   - username:azamat, password:azamat;
+   - username:greetgo, password:greetgo.
