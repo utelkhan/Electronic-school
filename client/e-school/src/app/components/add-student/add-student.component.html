@@ -1,0 +1,75 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-11">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Student data</h4>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <form>
+                <div class="form-group row">
+                  <label for="id" class="col-4 col-form-label">id</label>
+                  <div class="col-8">
+                    <input readonly id="id" name="id" placeholder="id" [(ngModel)]="student.id" class="form-control here" required="required" type="number">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="grade" class="col-4 col-form-label">grade</label>
+                  <div class="col-8">
+                    <input id="grade" name="grade" placeholder="grade" [(ngModel)]="student.grade" required="required" class="form-control here" type="number" max="11">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="first_name" class="col-4 col-form-label">first name</label>
+                  <div class="col-8">
+                    <input id="first_name" name="first_name" placeholder="first Name" [(ngModel)]="student.first_name" required="required" class="form-control here" type="text">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="last_name" class="col-4 col-form-label">last name</label>
+                  <div class="col-8">
+                    <input id="last_name" name="last_name" placeholder="last Name" [(ngModel)]="student.last_name" required="required" class="form-control here" type="text">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="age" class="col-4 col-form-label">age</label>
+                  <div class="col-8">
+                    <input id="age" name="age" placeholder="age" [(ngModel)]="student.age" required="required" class="form-control here" type="number">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="average_rating" class="col-4 col-form-label">average rating</label>
+                  <div class="col-8">
+                    <input id="average_rating" name="average_rating" placeholder="average rating" [(ngModel)]="student.average_rating" class="form-control here" required="required" type="number">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="offset-4 col-8">
+                    <button name="submit" type="submit" class="btn btn-sm btn-info btn-create" (click)="createStudent()">Add a student</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="./home.component.css" rel="stylesheet">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet'
+      type='text/css'>
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+      <div class="panel panel-default panel-table">
+        <div class="panel-heading">
+          <div class="row">
+            <div class="col col-xs-6">
+              <h3 class="text-info">Students</h3>
+            </div>
+            <div class="col col-xs-6 text-right">
+              <button type="button" class="btn btn-sm btn-info btn-create" (click)="addStudent()">Add student</button>
+              <button style="margin-left: 10px" type="button" class="btn btn-sm btn-info btn-create" (click)="logout()">Logout</button>
+            </div>
+          </div>
+          <div class="panel-body">
+            <table class="table table-striped table-bordered table-list">
+              <thead>
+              <tr>
+                <th class="hidden-xs">id</th>
+                <th>grade</th>
+                <th>first_name</th>
+                <th>last_name</th>
+                <th>age</th>
+                <th>average_rating</th>
+                <th><em class="fa fa-cog" ></em></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr *ngFor="let student of students">
+                <td class="hidden-xs">{{student.id}}</td>
+                <td>{{student.grade}}</td>
+                <td>{{student.first_name}}</td>
+                <td>{{student.last_name}}</td>
+                <td>{{student.age}}</td>
+                <td>{{student.average_rating}}</td>
+                <td align="center">
+                  <a class="btn btn-danger" style="margin-left: 10px" (click)="deleteStudent(student)"><em class="fa fa-trash"></em></a>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
