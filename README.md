@@ -3,7 +3,7 @@
 
 
 ## 1. Скачивание
-   Чтобы скачать проект, запустите команду `git clone https://github.com/UtelkhanAzamat/Electronic-school.git` в консоли, в удобной вам директории.
+   Чтобы скачать проект, запустите команду `git clone https://github.com/utelkhan/Electronic-school.git` в консоли, в удобной вам директории.
    
    
 ## 2. Настройка
